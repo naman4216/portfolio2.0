@@ -1,4 +1,7 @@
 
+body{
+overflow-x: hidden;
+}
 .intro {
     font-size: 34px;
     color: #555;
@@ -7,6 +10,7 @@
   .highlighted-text {
     font-size: 44px;
     font-weight: bold;
+    color: #333;
   }
   
   .download-btn {
@@ -57,8 +61,15 @@
     box-shadow: 0 0 5px rgba(0, 0, 0, 0.1); 
     margin-left: 250px;
   }
+  .portfolio-section {
+    margin-bottom: 100px; /* Adjust as needed */
+  }
 
 
+  #recent-projects .section-heading{
+    font-size: 18px;
+    color: #555;
+  }
 .card {
     flex: 0 0 calc(33.33% - 20px); /* Adjust card width to include padding */
     padding: 30px; /* Add padding to the cards */
@@ -79,8 +90,208 @@
   .btn-show:hover {
     background-color: #333;
   }
+  /* Testimonials Section */
+#testimonials .section-heading {
+    font-size: 18px;
+    color: #555;
+  }
   
+  #testimonials .sub-heading {
+    font-size: 32px;
+    color: #333;
+  }
   
+  #testimonials .btn-testimonials {
+    font-size: 16px;
+    padding: 10px 20px;
+    border-radius: 5px;
+    background-color: #555;
+    color: #fff;
+    border: none;
+  }
+  
+  #testimonials .btn-testimonials:hover {
+    background-color: #333;
+  }
+  
+  .testimonial {
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    margin-bottom: 20px;
+  }
+  
+  .client-info {
+    display: flex;
+    align-items: center;
+  }
+  
+  .client-img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-right: 10px;
+  }
+  
+  .client-name {
+    font-weight: bold;
+    margin: 0;
+  }
+  
+  .rating {
+    margin-bottom: 10px;
+  }
+  
+  .rating .star {
+    color: #FFD700; /* Golden Yellow color for stars */
+  }
+  /* CSS for the blog section */
+  #blogs{
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.blog-item {
+    margin-bottom: 20px;
+}
+
+ .blog-1{
+width: 50%;
+height: 50%;
+}
+    
+
+.blog-2 {
+  height: 50%;
+    width: 50%;
+}
+
+.blog-3 {
+    height: 20%;
+    width: 30%;
+}
+.blog-4{
+height: 30%;
+width: 30%;
+}
+.blog-5{
+    height: 40%;
+    width: 40%;
+}
+
+  .btn-read-more {
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #555;
+    border-color: #555;
+  }
+  #banner {
+    background-image: url('georgie-cobbs-bKjHgo_Lbpo-unsplash.jpg');
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+    padding: 100px 0;
+    text-align: center;
+}
+
+.banner-heading {
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+
+.banner-description {
+    font-size: 18px;
+    margin-bottom: 40px;
+}
+
+.btn-get-started {
+    background-color: #fff;
+    color: #555;
+    font-weight: bold;
+    padding: 15px 30px;
+    font-size: 18px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.btn-get-started:hover {
+    background-color: #ccc;
+}
+
+#contact {
+    background-color: #f9f9f9;
+    padding: 100px 0;
+}
+
+.contact-heading {
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+
+.contact-sub-heading {
+    font-size: 18px;
+    margin-bottom: 40px;
+}
+
+.contact-form {
+    margin-bottom: 30px;
+}
+
+.contact-form .form-control {
+    margin-bottom: 20px;
+}
+
+.contact-image {
+    max-width: 100%;
+    height: auto;
+    margin-right: 500px;
+}
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');
+
+/* * {
+    color: #000000;
+} */
+
+.footer-section {
+    color: #ffffff; /* Change text color to white */
+    background-color: #555;
+}
+
+.logo-image {
+    width: 120px
+}
+
+.footer-icon {
+    margin: 10px;
+}
+
+.icon {
+    background-color: #555;
+    padding: 10px;
+    border-radius: 42px;
+}
+
+.ecommerce-footer-section-heading {
+    color: #ffffff;
+    font-family: "Roboto";
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.ecommerce-footer-section-list {
+    list-style-type: none;
+    padding-left: 0px;
+}
+
+.icon-bottom {
+    padding: 10px;
+}
+
+.hr-line {
+    background-color: #fff;
+}
   @media (min-width: 768px) {
     .image-container {
       margin-top: 20px; 
