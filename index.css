@@ -325,7 +325,32 @@ margin-left: 70px;
     background-color: #333;
     border-color: #333;
   }
+  .card {
+    height: 100%; /* Ensure cards take full height */
+  }
+  
+  .card-body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between; /* Space between title and buttons */
+    height: 100%; /* Ensure card body takes full height */
+  }
+  
+  .card-title {
+    margin-bottom: 10px; /* Add some space below the title */
+  }
+  
+  .card-text {
+    flex-grow: 1; /* Allow text to grow and fill available space */
+    overflow: hidden; /* Hide overflowing text */
+  }
 
+  .btn-know-more {
+    margin-top: 10px; /* Add some space above the button */
+  padding: 5px 10px; /* Adjust padding to make the button smaller */
+  font-size: 14px; /* Reduce font size */
+  width: 50%;
+  }
 .skill-img {
     width: 80px; 
     height: auto; 
