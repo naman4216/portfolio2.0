@@ -5,34 +5,91 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Naman Bansal | Portfolio</title>
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
-  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous" />
   <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
   <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
   <script src="https://kit.fontawesome.com/d1c2ea8b80.js" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/4.2.0/remixicon.min.css">
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
   
   <link rel="stylesheet" href="index.css">
 </head>
 <body>
 
-    <nav>
-        <div class="navbar">
-          <div class="logo"><a href="#">NAMAN BANSAL</a></div>
-          <ul class="menu">
-            <li><a href="#Home">Home</a></li>
-            <li><a href="#About">About</a></li>
-            <li><a href="#Category">Category</a></li>
-            <li><a href="#Contact">Contact</a></li>
-            <li><a href="#Feedback">Feedback</a></li>
+  <header class="header" id="header">
+    <nav class="nav container">
+       <a href="#" class="nav__logo">MOHNISH SACHDEVA</a>
+
+       <div class="nav__menu" id="nav-menu">
+          <ul class="nav__list">
+             <li class="nav__item">
+                <a href="#" class="nav__link">
+                   <i class="ri-arrow-right-up-line"></i>
+                   <span>Home</span>
+                </a>
+             </li>
+
+             <li class="nav__item">
+                <a href="#" class="nav__link">
+                   <i class="ri-arrow-right-up-line"></i>
+                   <span>About Us</span>
+                </a>
+             </li>
+
+             <li class="nav__item">
+                <a href="#" class="nav__link">
+                   <i class="ri-arrow-right-up-line"></i>
+                   <span>Projects</span>
+                </a>
+             </li>
+
+             <li class="nav__item">
+                <a href="#" class="nav__link">
+                   <i class="ri-arrow-right-up-line"></i>
+                   <span>Studio</span>
+                </a>
+             </li>
+
+             <li class="nav__item">
+                <a href="#" class="nav__link">
+                   <i class="ri-arrow-right-up-line"></i>
+                   <span>Contact</span>
+                </a>
+             </li>
           </ul>
-        </div>
-      </nav>
+          <div class="nav__close" id="nav-close">
+            <i class="ri-close-large-line"></i>
+         </div>
+
+         <div class="nav__social">
+            <a href="https://www.instagram.com/" target="_blank" class="nav__social-link">
+               <i class="ri-instagram-line"></i>
+            </a>
+
+            <a href="https://github.com/" target="_blank" class="nav__social-link">
+               <i class="ri-github-line"></i>
+            </a>
+            <a href="https://www.linkedin.com/" target="_blank" class="nav__social-link">
+               <i class="ri-linkedin-box-line"></i>
+            </a>
+         </div>
+      </div>
+
+      <!-- Toggle button -->
+      <div class="nav__toggle" id="nav-toggle">
+         <i class="ri-menu-line"></i>
+      </div>
+   </nav>
+</header>
+
 
 <div class="container mt-4">
   <div class="row">
     <div class="col-md-6">
       <div class="intro">
-        <p>I am a <span class="highlighted-text">Software Developer</span>. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+        <p>I am a <span class="highlighted-text">Assistant Professor</span>. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
       </div>
       <button class="btn btn-primary download-btn">Download CV</button>
     </div>
@@ -66,7 +123,7 @@
             <div class="card">
               <div class="card-body">
                 <h5 class="card-title">Competitive Programming</h5>
-                <p class="card-text">Enhance problem-solving skills and algorithmic thinking.</p>
+                <p class="card-text">Enhance problem-solving skills and algorithmic thinking through C++ and Python.</p>
                 <button class="btn btn-primary btn-know-more">Know More</button>
               </div>
             </div>
@@ -74,7 +131,7 @@
           <div class="col-md-4">
             <div class="card">
               <div class="card-body">
-                <h5 class="card-title">Analysis of Algorithm</h5>
+                <h5 class="card-title">Python Programming</h5>
                 <p class="card-text">Study and evaluate the efficiency of algorithms and data structures.</p>
                 <button class="btn btn-primary btn-know-more">Know More</button>
               </div>
@@ -83,16 +140,28 @@
           <div class="col-md-6">
             <div class="row">
               <div class="col-md-3">
-                <img src="python-removebg-preview.png" alt="Skill 1" class="skill-img">
+                <img src="c++-removebg-preview.png" alt="Skill 2" class="skill-img">
               </div>
               <div class="col-md-3">
-                <img src="c++-removebg-preview.png" alt="Skill 2" class="skill-img">
+                <img src="python-removebg-preview.png" alt="Skill 1" class="skill-img">
               </div>
               <div class="col-md-3">
                 <img src="ai-removebg-preview.png" alt="Skill 3" class="skill-img">
               </div>
               <div class="col-md-3">
                 <img src="data-removebg-preview.png" alt="Skill 4" class="skill-img">
+              </div>
+              <div class="col-md-3">
+                <img src="deep.jpg" alt="Skill 4" class="skill-img">
+              </div>
+              <div class="col-md-3">
+                <img src="logo-deep-learning.png" alt="Skill 4" class="skill-img">
+              </div>
+              <div class="col-md-3">
+                <img src="processor-logo-icon-vector-46723055.jpg" alt="Skill 4" class="skill-img">
+              </div>
+              <div class="col-md-3">
+                <img src="business.jpeg" alt="Skill 4" class="skill-img">
               </div>
             </div>
           </div>
@@ -103,7 +172,7 @@
       <div class="row">
     <div class="col-md-6">
       <h5 class="section-heading">Recent Projects</h5>
-      <h2 class="sub-heading">My Portfolio</h2>
+      <h2 class="sub-heading">My Work Experience</h2>
     </div>
     <div class="col-md-6 text-right">
       <button class="btn btn-primary btn-expertise">Portfolio</button>
@@ -118,21 +187,21 @@
             <div class="row">
               <div class="col-md-4">
                 <div class="card">
-                  <h3>Project 1</h3>
+                  <h3>Music-Genre-Classification</h3>
                   <p>Description of Project 1</p>
                   <button class="btn btn-primary btn-show">Show</button>
                 </div>
               </div>
               <div class="col-md-4">
                 <div class="card">
-                  <h3>Project 2</h3>
+                  <h3>Myers-Briggs Type Indicator</h3>
                   <p>Description of Project 2</p>
                   <button class="btn btn-primary btn-show">Show</button>
                 </div>
               </div>
               <div class="col-md-4">
                 <div class="card">
-                  <h3>Project 3</h3>
+                  <h3>Amazon fine foods review classification</h3>
                   <p>Description of Project 3</p>
                   <button class="btn btn-primary btn-show">Show</button>
                 </div>
@@ -143,21 +212,21 @@
             <div class="row">
               <div class="col-md-4">
                 <div class="card">
-                  <h3>Project 4</h3>
+                  <h3>5 Stage Pipeline processor</h3>
                   <p>Description of Project 4</p>
                   <button class="btn btn-primary btn-show">Show</button>
                 </div>
               </div>
               <div class="col-md-4">
                 <div class="card">
-                  <h3>Project 5</h3>
+                  <h3>Machine Learning Algorithms</h3>
                   <p>Description of Project 5</p>
                   <button class="btn btn-primary btn-show">Show</button>
                 </div>
               </div>
               <div class="col-md-4">
                 <div class="card">
-                  <h3>Project 6</h3>
+                  <h3>AMBA AHB-Lite Protocol</h3>
                   <p>Description of Project 6</p>
                   <button class="btn btn-primary btn-show float-left">Show</button>
                 </div>
@@ -242,60 +311,16 @@
 
   </div>
 </section>
-<!-- <section id="blogs" class="container mt-4">
-    <div class="row">
-        <div class="col-md-12 text-center">
-            <h2>Explore all New Trending Stories</h2>
-        </div>
-    </div>
-    
-    <div class="row">
 
-   
-      <div class="blog-item blog-1">
-          <img src="971.jpg" alt="Large Image" class="img-fluid">
-          <div class="blog-text">
-            <h3>Blog Title 1</h3>
-            <p>Description of Blog 1</p>
-          </div>
-        </div>
- 
-        <div class="blog-item blog-2">
-          <img src="lum3n--RBuQ2PK_L8-unsplash.jpg" alt="Small Square Image" class="img-fluid">
-          <div class="blog-text">
-            <h3>Blog Title 2</h3>
-            <p>Description of Blog 2</p>
-          </div>
-        </div>
-  
-        <div class="blog-item blog-3">
-          <img src="brooke-lark-nTZOILVZuOg-unsplash.jpg" alt="Large Square Image" class="img-fluid">
-          <div class="blog-text">
-            <h3>Blog Title 3</h3>
-            <p>Description of Blog 3</p>
-          </div>
-        </div>
-        <div class="blog-item blog-4">
-            <img src="oxana-v-qoAIlAmLJBU-unsplash.jpg" alt="Tall Image" class="img-fluid">
-            <div class="blog-text">
-              <h3>Blog Title 4</h3>
-              <p>Description of Blog 4</p>
-            </div>
-          </div>
-          <div class="blog-item blog-5">
-            <img src="kenny-eliason-3GZNPBLImWc-unsplash.jpg" alt="Medium Square Image" class="img-fluid">
-            <div class="blog-text">
-              <h3>Blog Title 5</h3>
-              <p>Description of Blog 5</p>
-            </div>
-          </div>
-    </div>
     <div class="row">
       <div class="col-md-12 text-center">
         <button class="btn btn-primary btn-read-more">Read More</button>
       </div>
     </div>
-  </section> -->
+  </section>
+  
+    
+  </div>
   <section id="banner">
     <div class="container">
         <div class="banner-content">
@@ -404,6 +429,29 @@
               $('#project-carousel').carousel(index);
           });
       });
+
+
+
+/*=============== SHOW MENU ===============*/
+const navMenu = document.getElementById('nav-menu'),
+      navToggle = document.getElementById('nav-toggle'),
+      navClose = document.getElementById('nav-close')
+
+/* Menu show */
+if(navToggle){
+   navToggle.addEventListener('click', () =>{
+      navMenu.classList.add('show-menu')
+   })
+}
+
+/* Menu hidden */
+if(navClose){
+   navClose.addEventListener('click', () =>{
+      navMenu.classList.remove('show-menu')
+   })
+}
+
+
   </script>
   
 <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
